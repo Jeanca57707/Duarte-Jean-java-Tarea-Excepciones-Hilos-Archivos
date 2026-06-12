@@ -4,7 +4,7 @@ public class HiloUno extends Thread{
 
     public void run(){
 
-        System.out.println("Hola, Hilo uno activo.");
+        System.out.println("Hola, Hilo 1 activo.");
 
     }
 }
