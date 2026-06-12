@@ -37,16 +37,15 @@ public class Descargas extends Thread{
 
         try{
 
-            System.out.println("Descargando " + getNombre());
+            System.out.println("Descargando " + getNombre() + "...");
             
             for(int i = 1; i < 11; i++){
 
-                Thread.sleep(2000);
+                Thread.sleep(getTiempo());
+
                 System.out.println(getNombre() + " " + (i*10) + "% ");
             }
-
-            Thread.sleep(getTiempo());
-
+            
             System.out.println(getNombre() + " completado.");
 
         }catch(InterruptedException e){
@@ -54,8 +53,4 @@ public class Descargas extends Thread{
             System.out.println(e.getMessage());
         }
     }
-
-
-
-
 }
