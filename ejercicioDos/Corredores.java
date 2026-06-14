@@ -30,18 +30,17 @@ public class Corredores extends Thread{
 
             do{
                 Thread.sleep(1000);
-                num = random.nextInt(1,11);
+                num = random.nextInt(1,3);
 
-                if(num == 5){
+                if(num == 2){
 
                     contador ++;
-                    System.out.println(getCorredor() + " avanzó un metro " + contador);
+                    System.out.println(getCorredor() + " avanzó al metro " + contador);
                 }
                 if (contador == 10){
 
                     enMeta = true;
-                    System.out.println(getCorredor() + "llegó a la meta.");
-                    return;
+                    System.out.println(getCorredor() + " llegó a la meta.");
                 }
 
             }while(!enMeta);
