@@ -14,6 +14,8 @@ public class Main{
         Scanner sc = new Scanner(System.in);
 
         int opc = 0;
+        int num1 = 0;
+        int num2 = 0;
 
         do{
 
@@ -31,23 +33,46 @@ public class Main{
                 switch(opc){
 
                     case 1:
+                        System.out.print("Ingrese el primer numero: ");
+                        num1 = sc.nextInt();
 
-                        System.out.println(calculadora.suma(1,1));
+                        System.out.print("Ingrese el primer numero: ");
+                        num2 = sc.nextInt();
+
+                        System.out.println("\n" + calculadora.suma(num1, num2));
                         break;
 
                     case 2:
 
-                        System.out.println(calculadora.resta(0, 4));
+                        System.out.print("Ingrese el primer numero: ");
+                        num1 = sc.nextInt();
+
+                        System.out.print("Ingrese el primer numero: ");
+                        num2 = sc.nextInt();
+
+                        System.out.println("\n" + calculadora.resta(num1, num2));
                         break;
 
                     case 3:
 
-                        System.out.println(calculadora.multiplicacion(7,9));
+                        System.out.print("Ingrese el primer numero: ");
+                        num1 = sc.nextInt();
+
+                        System.out.print("Ingrese el primer numero: ");
+                        num2 = sc.nextInt();
+
+                        System.out.println("\n" + calculadora.multiplicacion(num1, num2));
                         break;
 
                     case 4:
 
-                        System.out.println(calculadora.division(5,0));
+                        System.out.print("Ingrese el primer numero: ");
+                        num1 = sc.nextInt();
+
+                        System.out.print("Ingrese el primer numero: ");
+                        num2 = sc.nextInt();
+
+                        System.out.println("\n" + calculadora.division(num1, num2));
                         break;
 
                     case 5:
