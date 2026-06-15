@@ -36,7 +36,7 @@ public class Main{
 
             while((linea = lectura.readLine()) != null){
 
-                System.out.println(linea);
+                System.out.println("-"+ linea);
             }
 
         }catch(FileNotFoundException e){
