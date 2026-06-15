@@ -16,7 +16,6 @@ public class Main{
 
         try(FileWriter agregar = new FileWriter("actividades.txt", true)){
 
-
             agregar.write(actividad + System.lineSeparator());
             System.out.println("\nActividad agregada.");
         
