@@ -3,6 +3,7 @@ import java.util.*;
 public class Corredores extends Thread{
 
     private String corredor;
+    private static String ganador = null;
 
     public Corredores(String corredor){
 
@@ -15,6 +16,11 @@ public class Corredores extends Thread{
     public String getCorredor(){
 
         return corredor;
+    }
+
+    public String ganador(){
+
+        return ganador + " gano la carrera!!";
     }
 
     @Override
@@ -39,9 +45,15 @@ public class Corredores extends Thread{
                 }
                 if (contador == 10){
 
+
+                    if(ganador == null){
+
+                       ganador = getCorredor();
+                    } 
                     enMeta = true;
                     System.out.println(getCorredor() + " llegó a la meta.");
                 }
+                
 
             }while(!enMeta);
 
