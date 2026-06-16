@@ -42,6 +42,7 @@ public class Main{
            corredor3.join();
            corredor4.join();
 
+           System.out.println("\nGanador de la carrera: "+ Corredores.ganador());
 
            System.out.println("\nEstado final de " + corredor1.getCorredor() +": " + corredor1.getState());
            System.out.println("Estado final de " + corredor2.getCorredor() +": " + corredor2.getState());

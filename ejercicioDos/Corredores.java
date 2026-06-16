@@ -18,9 +18,9 @@ public class Corredores extends Thread{
         return corredor;
     }
 
-    public String ganador(){
+    public static String ganador(){
 
-        return ganador + " gano la carrera!!";
+        return ganador;
     }
 
     @Override
@@ -50,6 +50,7 @@ public class Corredores extends Thread{
 
                        ganador = getCorredor();
                     } 
+
                     enMeta = true;
                     System.out.println(getCorredor() + " llegó a la meta.");
                 }
