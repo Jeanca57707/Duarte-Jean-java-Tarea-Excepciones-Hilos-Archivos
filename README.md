@@ -20,22 +20,29 @@ Cada archivo se ejecuta en un hilo independiente y muestra su progreso en pantal
 
 ## Ejercicio 2
 
-Carrera de corredores. 
-Un programa que simula un carrera de 4 corredores diferentes utilizando hilos. Al final muestra quíen ganó ka carrera.
+Carrera de corredores.
+
+Un programa que simula un carrera de 4 corredores diferentes utilizando hilos. Al final muestra quíen ganó la carrera.
 
 ## Ejercicio 3
 
-Validar edad. Un programa que maneja excepciones para ver si es mayor o menor de edad. Si es menor de edad, lanzará una
+Validar edad. 
+
+Un programa que maneja excepciones para ver si es mayor o menor de edad. Si es menor de edad, lanzará una
 excepción personalizada al usuario.
 
 ## Ejercicio 4
 
- Calculadora. Una calculadora que puede sumar, restar, multiplicar y dividir. Esta enviará un mensaje al usuario si
+ Calculadora.
+ 
+ Una calculadora que puede sumar, restar, multiplicar y dividir. Esta enviará un mensaje al usuario si
  intenta dividir entre 0, o si ingresa texto en vez de un número.
 
 ## Ejercicio 5
 
- Manejo de archivos. Un programa que te permite registrar actividades en un archivo llamado "actividades.txt",
+ Manejo de archivos.
+ 
+ Un programa que te permite registrar actividades en un archivo llamado "actividades.txt",
  y que tambien te permite leer lo quese guardo en el archivo. La información del archivo no se eobreescribe ni se borra
  al momento de agregar nuevas actividades.
 
